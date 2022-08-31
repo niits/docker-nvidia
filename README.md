@@ -53,9 +53,7 @@ Wed Aug 31 12:52:14 2022
 Chuyển về thư mục chính và build image với câu lệnh:
 
 ```bash
-docker build \
-      -t pytorch-dev-env \ # Đặt tên cho image được build ra
-      .
+docker build -t pytorch-dev-env . # Đặt tên cho image được build ra
 ```
 
 Kết quả kỳ vọng:
